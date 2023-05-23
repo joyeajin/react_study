@@ -1,0 +1,54 @@
+.profile{
+  width: 300px;
+  text-align: center;
+  padding: 1rem;
+  background: #ebebeb;
+  box-shadow: 10px 11px 40px -18px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 11px 40px -18px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 11px 40px -18px rgba(0,0,0,0.75);
+  border-radius: 20px;
+  margin-bottom: 1em;
+}
+
+.photo{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.new{
+  position: absolute;
+  background: skyblue;
+  padding: 2px 4px;
+  border-radius: 8px;
+  top:10%;
+  left: 70%;
+  font-weight: bold;
+}
+
+.avatar{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+
+.number{
+  font-size: 7rem;
+}
+
+.button{
+  font-size: 2rem;
+  padding: 0.2rem 1rem;
+  border-radius: 0.5rem;
+  background-color: blueviolet;
+}
+
+.counter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border: 2px solid red;
+  margin: 2rem;
+}
